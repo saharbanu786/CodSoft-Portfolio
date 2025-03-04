@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="about-container">
+                <div class="about-photo">
+                    <img src="images/portpic.jpg" alt="Saharbanu's Photo">
+                </div>
+                <div class="about-text">
+                    <h1>HELLO, I'M SAHARBANU !!!</h1>
+                    <p>I am a student studying at Sri Eshwar College of Engineering, passionate about learning and applying technology to create impactful solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Receipt Generator</h3>
+                <div class="project-image">
+                    <img src="images/receipt.png" alt="Receipt Generator">
+                </div>
+                <p>
+                    The receipt generator is a Python program that creates and prints receipts, including details like the item name, quantity, price, and total cost for a transaction.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: ATM Simulator</h3>
+                <div class="project-image">
+                    <img src="images/ATM sim.png" alt="ATM Simulator">
+                </div>
+                <p>               
+                     The ATM simulator is a program written in Python that lets users practice using an ATM, like checking their balance, withdrawing money, and transferring funds.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>I'm Good at</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, Java</li>
+                <li>MongoDB</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: saharbanu802@gmail.com</p>
+
+            <form action="mailto:saharbanu802@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/saharbanu786/" target="_blank">
+            <img src="images/linkedin.png" alt="LinkedIn Logo">
+        </a>
+        <a href="https://www.instagram.com/_the._.s_a_s_s_y._.angel._/" target="_blank">
+            <img src="images/insta.png" alt="Instagram Logo">
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
