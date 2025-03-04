@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
             event.preventDefault();
             const sectionId = link.getAttribute("href");
 
-            if (sectionId && sectionId.startsWith("#")) { // Ensure it's a valid section ID
+            if (sectionId && sectionId.startsWith("#")) { 
                 const section = document.querySelector(sectionId);
                 
                 if (section) {
